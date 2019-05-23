@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity" >
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search"
+        android:queryHint="Search..."
+        android:iconifiedByDefault="false"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="@drawable/bg_round">
+
+    </SearchView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoomin"
+        android:layout_marginTop="450dp"
+        android:id="@+id/zoomin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoomout"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/zoomout"/>
+</RelativeLayout>
+<!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>-->
+<!--<uses-permission android:name="android.permission.INTERNET"/>-->
+<!--<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>-->
+    <!--   implementation 'com.google.android.gms:play-services-maps:16.1.0'-->

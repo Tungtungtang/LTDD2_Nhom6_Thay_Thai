@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TranDangKhoa_17211TT1738</string>
+    <string name="daussk">Đầu ssk</string>
+    <string name="thanssk">Thân ssk</string>
+    <string name="chanssk">Chân ssk</string>
+    <string name="kq">Kết quả</string>
+    <string name="xoa">Xóa</string>
+    <string name="daunar">Đầu nar</string>
+    <string name="thannar">Thân nar</string>
+    <string name="channar">Chân nar</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/imgDrinkIcon"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:gravity="center"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtTen_HD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textColor="@color/colortext"
+            android:textStyle="bold"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/txtGia_HD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textColor="#BEBEBE"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:id="@+id/giam"
+                android:focusable="false"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/stt"
+                android:focusable="false"
+                android:background="@null"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/tang"
+                android:focusable="false"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

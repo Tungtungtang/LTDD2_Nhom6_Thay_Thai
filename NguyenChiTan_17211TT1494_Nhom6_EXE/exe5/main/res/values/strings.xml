@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EXE5_Tan</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="normal_maps">NORMAL Map</string>
+    <string name="hybrid_maps">HYBRID Map</string>
+    <string name="satellite_maps">SATELLITE Map</string>
+    <string name="terrain_maps">TERRAIN Map</string>
+</resources>

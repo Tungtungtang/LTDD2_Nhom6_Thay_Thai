@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgFoodIcon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:src="@drawable/foodne"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:paddingLeft="15dp"
+            android:textColor="@color/colortext"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/txtFoodTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="@string/app_name"
+            android:textSize="25dp"
+            android:textColor="@color/color"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giá: "
+                android:textSize="20sp"
+                android:textColor="@color/colorA"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtFoodPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:textColor="@color/colorA"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtFoodMoTa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="@string/app_name"
+            android:textSize="15dp"
+            android:textColor="@color/colortext"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

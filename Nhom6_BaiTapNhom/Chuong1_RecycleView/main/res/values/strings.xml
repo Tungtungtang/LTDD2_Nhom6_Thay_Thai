@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nhom 6</string>
+    <string name="txSoA">Số A</string>
+    <string name="txSoB">Số B</string>
+    <string name="edSoA">Nhập số A</string>
+    <string name="edSoB">Nhập số B</string>
+    <string name="txKQ">Kết quả</string>
+    <string name="edKQ">Nhập kết quả</string>
+    <string name="btnCong">Cộng</string>
+    <string name="btnTru">Trừ</string>
+    <string name="btnNhan">Nhân</string>
+    <string name="btnChia">Chia</string>
+    <string name="txTitle">Thực hiện phép tính</string>
+</resources>

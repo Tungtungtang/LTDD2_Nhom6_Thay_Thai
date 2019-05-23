@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_mua_dong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/muadong"
+    android:orientation="horizontal"
+    tools:context=".MainMuaDong">
+
+    <ImageView
+        android:id="@+id/tuyet1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/hoatuyet"
+        android:layout_marginTop="-20dp"/>
+
+    <ImageView
+        android:id="@+id/tuyet2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/hoatuyet"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="-20dp"/>
+
+    <ImageView
+        android:id="@+id/tuyet3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/hoatuyet"
+        android:layout_marginTop="-20dp"/>
+
+</LinearLayout>

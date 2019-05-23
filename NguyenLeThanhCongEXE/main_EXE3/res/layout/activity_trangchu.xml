@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/bganime"/>
+
+    <ImageView
+        android:id="@+id/imgxe1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="380dp"
+        android:src="@drawable/sieuxe" />
+    <ImageView
+        android:id="@+id/imganimevn1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="670dp"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/hinhanimevn"
+
+        />
+    <ImageView
+        android:id="@+id/imgday1"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="@drawable/soiday"
+        android:layout_marginLeft="470dp"
+        android:layout_marginTop="-50dp"/>
+</LinearLayout>
